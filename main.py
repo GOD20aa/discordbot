@@ -505,6 +505,12 @@ async def main():
         await bot.start(token)
 
 
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
+
+
+
 import asyncio
 
 from flask import Flask
