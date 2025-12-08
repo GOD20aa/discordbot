@@ -503,6 +503,7 @@ async def main():
         import os
         token = os.getenv("DISCORD_TOKEN")
         await bot.start(token)
+        print("TOKEN:", repr(token))
 
 if __name__ == "__main__":
     import asyncio
